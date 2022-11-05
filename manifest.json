@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "Tilde Enhanced",
+	"version": "1.0.1",
+	"description": "A minimal startpage for your browser ",
+	"developer": {
+		"name": "Otto",
+		"url": "https://github.com/TomOttoDX"
+	},
+	"content_security_policy": "script-src 'self' https://duckduckgo.com; object-src 'self'",
+	"applications": {
+		"gecko": {
+			"id": "tilde-enhanced@otto",
+			"strict_min_version": "57.0"
+		}
+	},
+	"permissions": [
+		"storage"
+	],
+	"chrome_url_overrides" : {
+		"newtab": "index.html"
+	}
+}
