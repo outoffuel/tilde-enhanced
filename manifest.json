@@ -11,7 +11,7 @@
 	"applications": {
 		"gecko": {
 			"id": "tilde-enhanced@otto",
-			"strict_min_version": "57.0"
+			"strict_min_version": "70.0"
 		}
 	},
 	"permissions": [
