@@ -169,7 +169,7 @@ const CONFIG = {
       category: 'Other',
       name: 'X',
       key: 'x',
-      url: 'https://.x.com',
+      url: 'https://x.com',
       search: '/search?q={}&src=typed_query',
       color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
       icon: 'twitter',

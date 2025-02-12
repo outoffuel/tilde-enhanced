@@ -1,16 +1,16 @@
 {
 	"manifest_version": 2,
 	"name": "Tilde Enhanced",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A minimal startpage for your browser ",
 	"developer": {
-		"name": "Otto",
+		"name": "outoffuel",
 		"url": "https://github.com/outoffuel"
 	},
 	"content_security_policy": "script-src 'self' https://duckduckgo.com; object-src 'self'",
 	"applications": {
 		"gecko": {
-			"id": "tilde-enhanced@otto",
+			"id": "tilde-enhanced@outoffuel",
 			"strict_min_version": "70.0"
 		}
 	},
