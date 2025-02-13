@@ -1,0 +1,4 @@
+uses: cardinalby/webext-buildtools-pack-extension-dir-action@v1
+with:
+  extensionDir: 'extension'
+  zipFilePath: 'build/extension.zip'
