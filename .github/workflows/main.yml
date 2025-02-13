@@ -1,2 +1,7 @@
-- name: Sign Firefox xpi file
+name: Sign Firefox xpi file
   uses: cardinalby/webext-buildtools-firefox-sign-xpi-action@1.0.7
+  with:
+    zipFilePath: 'build/extension.zip'
+    xpiFilePath: 'build/extension.signed.xpi'
+    jwtIssuer: ${{ secrets.FF_JWT_ISSUER }}
+    jwtSecret: ${{ secrets.FF_JWT_SECRET }}
