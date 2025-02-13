@@ -1,0 +1,2 @@
+- name: Sign Firefox xpi file
+  uses: cardinalby/webext-buildtools-firefox-sign-xpi-action@1.0.7
